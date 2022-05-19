@@ -1,0 +1,41 @@
+body {
+    background-color: #FFFEFC;
+}
+
+.question {
+    display: none;
+}
+
+.nextButton {
+    display: none;
+}
+
+.selected {
+    color: red;
+    background-color: rgba(0,0,0,.025)!important;
+}
+
+td.kana:hover {
+    background-color: rgba(0,0,0,.025);
+}
+
+td {
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+}
+
+input {
+    autofocus: true;
+}
+
+.appnav {
+    display: none;
+}
+
+.correct {
+    color: #0dcf1c;
+}
+
+.incorrect {
+    color: #ff2a2a;
+}
